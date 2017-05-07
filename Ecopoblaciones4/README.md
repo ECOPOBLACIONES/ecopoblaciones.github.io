@@ -1,2 +1,0 @@
-# Ecopoblaciones
-Ecuador eco-village
