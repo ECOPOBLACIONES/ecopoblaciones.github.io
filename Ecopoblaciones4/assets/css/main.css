@@ -34,7 +34,9 @@
 
 	#image_featured1 > img {
 			max-width: 100%;
-			padding-left: 7%;
+			margin-left: auto;
+      margin-right: auto;
+      display: block;
 	}
 
 
@@ -57,11 +59,19 @@
 	}
 
 /*gallery*/
+.gallery {
+    padding: 10px 20px;
+}
 .gallery > img {
-  width: 30%;
+  /*width: 30%;*/
+  /*float: left;*/
+  /*margin:1.66%;  /*10%/6*/
+  width: 25%;
+  /* height: 200px; */
+  float: right;
   float: left;
-  margin:1.66%;  /*10%/6*/
-   }
+  padding: 10px;
+  }
 
 .gallery > p {
 	text-align: center;
@@ -2835,6 +2845,15 @@ a.control_next {
 					margin-bottom: 1em;
 				}
 
+	}
+
+
+
+	@media (max-width: 840px) {
+	    span.title > img {
+	        height: 38px;
+	        margin-top: 3px;
+	    }
 	}
 
 /* Narrow */
