@@ -63,11 +63,9 @@
     padding: 10px 20px;
 }
 .gallery > img {
-  /*width: 30%;*/
-  /*float: left;*/
-  /*margin:1.66%;  /*10%/6*/
+
   width: 25%;
-  /* height: 200px; */
+
   float: right;
   float: left;
   padding: 10px;
@@ -75,7 +73,6 @@
 
 .gallery > p {
 	text-align: center;
-  /*font-family: Raleway;*/
   margin-left: 1.66%;
   font-size:23px;
   font-weight: 800;
